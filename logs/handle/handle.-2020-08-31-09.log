@@ -1,0 +1,24 @@
+[2020-08-31T09:42:44.377] [INFO] handleLogger - 
+***************info log start ***************
+handle info detail: 
+{"fid":"C00-03","phone":"15716771475","password":"123456","reqUrl":"localhost:3000/HEYNU/Applets/t"}
+*************** info log end ***************
+
+[2020-08-31T09:42:57.068] [INFO] handleLogger - 
+***************info log start ***************
+handle info detail: 
+{"reqUrl":"localhost:3000/HEYNU/Applets/t"}
+*************** info log end ***************
+
+[2020-08-31T09:43:19.056] [INFO] handleLogger - 
+***************info log start ***************
+handle info detail: 
+{"reqUrl":"localhost:3000/HEYNU/Applets/t"}
+*************** info log end ***************
+
+[2020-08-31T09:43:38.123] [INFO] handleLogger - 
+***************info log start ***************
+handle info detail: 
+{"reqUrl":"localhost:3000/HEYNU/Applets/t"}
+*************** info log end ***************
+

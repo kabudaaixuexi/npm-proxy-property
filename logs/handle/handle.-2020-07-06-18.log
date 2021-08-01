@@ -1,0 +1,18 @@
+[2020-07-06T18:03:56.256] [INFO] handleLogger - 
+***************info log start ***************
+handle info detail: 
+{"reqUrl":"localhost:3000/HEYNU/Applets/t"}
+*************** info log end ***************
+
+[2020-07-06T18:04:33.360] [INFO] handleLogger - 
+***************info log start ***************
+handle info detail: 
+{"reqUrl":"localhost:3000/HEYNU/Applets/t"}
+*************** info log end ***************
+
+[2020-07-06T18:05:11.819] [INFO] handleLogger - 
+***************info log start ***************
+handle info detail: 
+{"reqUrl":"localhost:3000/HEYNU/Applets/t"}
+*************** info log end ***************
+

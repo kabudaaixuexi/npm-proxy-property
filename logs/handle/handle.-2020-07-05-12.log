@@ -1,0 +1,6 @@
+[2020-07-05T12:59:39.469] [INFO] handleLogger - 
+***************info log start ***************
+handle info detail: 
+{"fid":"C00-03","phone":"15716771475","password":"123456","reqUrl":"localhost:3000/HEYNU/Applets/t"}
+*************** info log end ***************
+

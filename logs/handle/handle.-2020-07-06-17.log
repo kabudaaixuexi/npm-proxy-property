@@ -1,0 +1,24 @@
+[2020-07-06T17:23:26.762] [INFO] handleLogger - 
+***************info log start ***************
+handle info detail: 
+{"fid":"C00-03","phone":"15716771475","password":"123456","reqUrl":"localhost:3000/HEYNU/Applets/t?fid=C00-03"}
+*************** info log end ***************
+
+[2020-07-06T17:24:08.484] [INFO] handleLogger - 
+***************info log start ***************
+handle info detail: 
+{"fid":"C00-03","phone":"15716771475","password":"123456","reqUrl":"localhost:3000/HEYNU/Applets/t?fid=C00-03"}
+*************** info log end ***************
+
+[2020-07-06T17:31:54.299] [INFO] handleLogger - 
+***************info log start ***************
+handle info detail: 
+{"fid":"C00-03","phone":"15716771475","password":"123456","reqUrl":"localhost:3000/HEYNU/Applets/t?fid=C00-03"}
+*************** info log end ***************
+
+[2020-07-06T17:32:55.022] [INFO] handleLogger - 
+***************info log start ***************
+handle info detail: 
+{"fid":"C00-03","phone":"15716771475","password":"123456","reqUrl":"localhost:3000/HEYNU/Applets/t?fid=C00-03"}
+*************** info log end ***************
+
