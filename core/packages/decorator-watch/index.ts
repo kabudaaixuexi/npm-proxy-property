@@ -26,7 +26,7 @@ module.exports = (...[,,descriptor]: PropertyDescriptor[]) => {
         const state = await deepClone(sessionStorage.getItem('l20ornzg'))
         state && self.setState(state)
         window.addEventListener("beforeunload",()=>{
-            sessionStorage.setItem('l20ornzg',JSON.stringify(self.getState()))
+            sessionStorage.setItem('l20ornzg',JSON.stringify(self.proxyState))
         })
     }
     };
