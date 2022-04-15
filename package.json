@@ -13,10 +13,15 @@
     "ts-jest": "^27.1.4",
     "typescript": "^4.6.3"
   },
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "pub": "sh release.sh"
   },
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "reflect-metadata": "^0.1.13"
   },
