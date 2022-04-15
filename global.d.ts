@@ -4,4 +4,3 @@ interface Configure {
 }
 
 type Target = any
-const appid = 'l20ornzg'
