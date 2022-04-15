@@ -23,7 +23,7 @@ module.exports = (...[,,descriptor]: PropertyDescriptor[]) => {
       performance && self.setState(self.proxyState)
       // session存储
       if (self.config.usePersisted) {
-        const state = await deepClone(sessionStorage.getItem('l20ornzg'))
+        const state = await deepClone(JSON.parse(sessionStorage.getItem('l20ornzg') || 'null'))
         state && self.setState(state)
         window.addEventListener("beforeunload",()=>{
             sessionStorage.setItem('l20ornzg',JSON.stringify(self.proxyState))
