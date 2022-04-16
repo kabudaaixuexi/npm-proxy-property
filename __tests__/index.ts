@@ -31,7 +31,11 @@ beforeAll(()=>{
 describe('测试__', () => {
     test('测试__Observable', ()=>{
         const s = Counter({
-            a:100,c:{}
+            initdata: {
+                name: 'ningrui '
+            }
+        },{
+            usePersisted: false
         })
         s.setState({casc:'aaa'})
         s.watch('casc', (ne: any, old: any) => {
@@ -39,7 +43,6 @@ describe('测试__', () => {
         }, false)
         s.setState({casc:'bbb'})
         console.log(s.getState('casc'));
-        console.log(s.getState('a'));
-        console.log(s.getState('c'));
+        console.log(s.getState('initdata'));
     })
 })

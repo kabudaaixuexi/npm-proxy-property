@@ -2,7 +2,7 @@ import { deepClone } from '../../utils'
 
 module.exports = (...[,,descriptor]: PropertyDescriptor[]) => {
     // const origin = descriptor.value;
-    descriptor.value = async function (key: Target, callback: Target, performance: Boolean = false ): Promise<void> {
+    descriptor.value = function (key: Target, callback: Target, performance: Boolean = false ): void {
       const self: Target = this
       self.callbacks = Object.assign({}, self.callbacks, {
         [key]: self.callbacks[key] || []
@@ -22,12 +22,8 @@ module.exports = (...[,,descriptor]: PropertyDescriptor[]) => {
       // 初次加载监听
       performance && self.setState(self.proxyState)
       // session存储
-      if (self.config.usePersisted) {
-        const state = await deepClone(JSON.parse(sessionStorage.getItem('l20ornzg') || 'null'))
-        state && self.setState(state)
-        window.addEventListener("beforeunload",()=>{
-            sessionStorage.setItem('l20ornzg',JSON.stringify(self.proxyState))
-        })
-    }
+      if (self.config.usePersisted && sessionStorage.getItem('l20ornzg')) {
+          window.addEventListener("beforeunload",()=> self.setState(JSON.parse(sessionStorage.getItem("l20ornzg") || 'null')))
+      }
     };
   };

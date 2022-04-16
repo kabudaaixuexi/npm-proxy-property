@@ -1,6 +1,6 @@
 {
   "name": "sw-decorator-property",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "状态库，快捷管理状态",
   "author": "ningrui",
   "devDependencies": {

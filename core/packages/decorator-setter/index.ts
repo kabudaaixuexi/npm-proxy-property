@@ -5,6 +5,7 @@ module.exports = (target: Target, name: String, descriptor: PropertyDescriptor) 
       !key && (
           Object.entries(data).forEach(([k, v]) => {self.proxyState[k] = v})
       )
+      self.config.usePersisted && sessionStorage.setItem('l20ornzg',JSON.stringify(self.proxyState))
     };
   };
   

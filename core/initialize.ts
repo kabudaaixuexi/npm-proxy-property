@@ -20,6 +20,10 @@ class initStore {
     @Readonly
     @Watch
     watch(...[,,,]){}
+
+    testInitialize() {
+        this.initialize ++
+    }
 }
 
 module.exports = (target: Target, config: Configure) => {
