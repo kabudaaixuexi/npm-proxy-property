@@ -41,8 +41,13 @@ describe('测试__', () => {
         s.watch('casc', (ne: any, old: any) => {
             console.log(ne, old);
         }, false)
+        s.watch('initdata', (ne: any, old: any) => {
+            console.log(ne, old);
+        }, false)
         s.setState({casc:'bbb'})
+        s.setState({initdata:'aaa'})
         console.log(s.getState('casc'));
         console.log(s.getState('initdata'));
+        
     })
 })
