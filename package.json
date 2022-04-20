@@ -1,7 +1,7 @@
 {
   "name": "sw-decorator-property",
   "version": "1.1.2",
-  "description": "状态库，快捷管理状态",
+  "description": "更轻的管理状态插件",
   "author": "ningrui",
   "devDependencies": {
     "@types/jest": "^27.4.1",
