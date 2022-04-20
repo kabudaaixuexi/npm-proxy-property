@@ -39,7 +39,10 @@ describe('测试__', () => {
         })
         s.setState({casc:'aaa'})
         s.watch('casc', (ne: any, old: any) => {
-            console.log(ne, old);
+            console.log('第一个监听', ne, old);
+        }, false)
+        s.watch('casc', (ne: any, old: any) => {
+            console.log('第二个监听', ne, old);
         }, false)
         s.watch('initdata', (ne: any, old: any) => {
             console.log(ne, old);
