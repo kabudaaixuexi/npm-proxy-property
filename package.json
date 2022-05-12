@@ -1,6 +1,6 @@
 {
   "name": "@akar/proxy-property",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "更轻的管理状态插件",
   "author": "ningrui",
   "devDependencies": {
@@ -28,6 +28,14 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:kabudaaixuexi/npm-proxy-property.git"
+    "url": "git+ssh://git@github.com/kabudaaixuexi/npm-proxy-property.git"
+  },
+  "types": "./lib/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/kabudaaixuexi/npm-proxy-property/issues"
+  },
+  "homepage": "https://github.com/kabudaaixuexi/npm-proxy-property#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
