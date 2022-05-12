@@ -1,5 +1,3 @@
-import { deepClone } from '../../utils'
-
 module.exports = (...[,,descriptor]: PropertyDescriptor[]) => {
     // const origin = descriptor.value;
     descriptor.value = function (key: Target, callback: Target, performance: Boolean = false ): void {
