@@ -1,5 +1,4 @@
-@akar/proxy-property 是基于js的proxy属性开发的一个插件，为解决前端应用中公共数据状态的处理。
-================================================
+### 基于js的proxy属性开发的一个插件，处理前端应用中的公共数据状态。
 
 + 介绍
 
@@ -40,7 +39,6 @@ export default moon(
 
 ```
 import moon from '@/store'
-
 
 moon.getState('todo') // kabudaaixuexi
 
