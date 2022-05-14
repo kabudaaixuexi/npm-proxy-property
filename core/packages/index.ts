@@ -1,5 +1,13 @@
-export const InitializeWarehouse = require('./decorator-warehouse')
-export const Get = require('./decorator-getter')
-export const Set = require('./decorator-setter')
-export const Watch = require('./decorator-watch')
-export const Readonly = require('./Readonly')
+import InitializeWarehouse from './decorator-warehouse'
+import Get from './decorator-getter'
+import Set from './decorator-setter'
+import Watch from './decorator-watch'
+import Readonly from './Readonly'
+
+export {
+    InitializeWarehouse,
+    Get,
+    Watch,
+    Readonly,
+    Set
+}

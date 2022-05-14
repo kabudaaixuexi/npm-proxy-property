@@ -1,7 +1,6 @@
 import { InitializeWarehouse, Get, Set, Watch, Readonly} from './packages'
-
 @InitializeWarehouse
-class initStore {
+export class initStore {
 
     public target; config; initialize: Target = 0
     constructor(target: Target, config: Configure) {
@@ -24,8 +23,4 @@ class initStore {
     testInitialize() {
         this.initialize ++
     }
-}
-
-module.exports = (target: Target, config: Configure) => {
-    return new initStore(target, config)
 }

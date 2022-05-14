@@ -1,4 +1,4 @@
-module.exports = (target: Target, name: String, descriptor: PropertyDescriptor) => {
+export default (target: Target, name: String, descriptor: PropertyDescriptor) => {
     descriptor.value = function (data: Target, key?: Target): void {
       const self: Target = this
       key && (self.proxyState[key] = data)

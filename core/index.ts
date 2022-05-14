@@ -1,4 +1,4 @@
-const creatStore = require('./initialize')
+import { initStore } from './initialize'
 
 export default (
     target: Target,
@@ -6,4 +6,4 @@ export default (
         usePersisted: false,
         useDecorator: false
     }
-) => creatStore(target, config)
+) => new initStore(target, config)

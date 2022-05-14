@@ -1,4 +1,4 @@
-module.exports = (...[,,descriptor]: PropertyDescriptor[]) => {
+export default (...[,,descriptor]: PropertyDescriptor[]) => {
     // const origin = descriptor.value;
     descriptor.value = function (key: Target, callback: Target, performance: Boolean = false ): void {
       const self: Target = this
