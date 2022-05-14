@@ -1,5 +1,6 @@
 export declare class initStore {
     target: any;
+    proxyState: any;
     config: Configure;
     initialize: Target;
     constructor(target: Target, config: Configure);
